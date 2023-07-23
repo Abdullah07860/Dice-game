@@ -1,0 +1,59 @@
+body {
+    margin: 80px auto;
+    background-color: rgb(57 53 53);
+}
+
+h1 {
+    text-align: center;
+    font-size: 6rem;
+    font-family: cursive;
+    font-weight: 300;
+    color: rgb(199, 183, 162);
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: rgb(151, 169, 169);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+}
+
+.conatiner-outer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.img1 img,
+.img2 img {
+    /* background: url('diceimages/6no.png')no-repeat center center/cover; */
+    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+.container1,
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(160,63,161,1) 0%, rgba(183,65,148,1) 25%, rgba(190,66,181,1) 41%, rgba(118,68,218,1) 98%, rgba(252,70,107,1) 100%);
+    margin: 40px auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 30px;
+    font-size: 1.2rem;
+    border-radius: 9px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+button:hover{
+    box-shadow: 2px 2px 7px 10px rgb(80, 80, 228);
+    /* .img img ,.img2 img{
+        transform: rotate(135deg);
+    } */
+}
